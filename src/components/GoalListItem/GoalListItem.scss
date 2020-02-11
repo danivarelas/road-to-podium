@@ -1,0 +1,29 @@
+.goal-item {
+    margin: 0.5em;
+    display: flex;
+
+    .btn-check {
+        border-radius: 50%;
+        width: 2em;
+        height: 2em;
+        padding: 0;
+        transition: transform 0.25s ease-in-out;
+
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+    
+    .goal-text {
+        margin: 0 1em;
+        font-size: 1.5em;
+        align-self: center;
+
+        &-completed {
+            align-self: center;
+            margin: 0 1em;
+            font-size: 1.5em;
+            text-decoration: line-through;
+        }
+    }
+}

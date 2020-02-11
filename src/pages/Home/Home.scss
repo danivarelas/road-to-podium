@@ -1,0 +1,91 @@
+.bg {
+    /* The image used */
+    background-image: url('../../images/run.jpg');
+    display: block;
+    height: 100%;
+    opacity: 0.8;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .home-container {
+        padding: 3em 4em;
+        height: 100%;
+    
+        .home-content {
+            height: 100%;
+            position: relative;
+            box-sizing: border-box;
+
+
+            .home-content-background {
+                height: 100%;
+                background-color: rgba(199, 199, 199, 0.7);
+
+                .home-content-text {
+                    text-align: center;
+                    width: 100%;
+
+                    &.vertical-center {
+                        margin: 0;
+                        position: absolute;
+                        top: 50%;
+                        -ms-transform: translateY(-50%);
+                        transform: translateY(-50%);
+                    }
+    
+                    img {
+                        width: 10em;
+                        color: wihte;
+                        margin: 1em;
+                    }
+
+                    p {
+                        font-size: 1.3em;
+                        font-weight: bold;
+                        width: 80%;
+                        margin: 1em auto;
+                    }
+                }
+            }
+
+            
+            
+        }
+
+        h1, p {
+            color: black;
+        }
+
+        .btn {
+            border-radius: 1em;
+            background-color: black;
+            color: white;
+            opacity: 0.8;
+            padding: 0.2em 1em;
+            font-size: 1.5em;
+
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+}
+
+@media (max-width:599px) {
+    .bg {
+        .home-container {
+            padding: 2em;
+        }
+    }
+    
+}
+
+@media (min-width:600px) and (max-width:899px) {
+    .bg {
+        .home-container {
+            padding: 3em;
+        }
+    }
+}
