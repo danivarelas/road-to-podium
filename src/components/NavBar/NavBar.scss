@@ -64,23 +64,21 @@
     }
 
     .navbar-brand {
-        font-size: 2rem;
+        font-size: 1.8rem;
         margin: 0.4em;
         color: white;
         font-weight: bold;
 
         img {
-            width: 35;
-            height: 35;
             margin-right: 0.2em;
             background: url('../../images/podium-white.png');
         }
     }
 
     .navbar-toggler {
-        border: 2px solid white;
+        border: 1px solid white;
         color: white;
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
 
     .nav-link {
@@ -96,29 +94,4 @@
         font-weight: bold;
     }
 
-}
-
-@media (max-width:599px) {
-    .navbar {
-        font-size: 1.2rem;
-    
-        .navbar-brand {
-            font-size: 1.3rem;
-            margin: 0.4em;
-            color: white;
-            font-weight: bold;
-    
-            img {
-                width: 25;
-                height: 25;
-            }
-        }
-    
-        .navbar-toggler {
-            border: 1px solid white;
-            color: white;
-            font-size: 1.2em;
-        }
-    
-    }
 }
